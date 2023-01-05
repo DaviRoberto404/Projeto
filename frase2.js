@@ -1,20 +1,9 @@
 $('#botao--mudar').click(mudaFrase);
 
-function mudaFrase(){
-
-    $.get("http://localhost:3000/frase2", mudaFraseAleatoria)
-    .fail(function() {
-
-        alert('Erro no servidor!!')
-
-    });
-
-
-
-}
-
-function mudaFraseAleatoria(data){
-
-    console.log(data)
-
-}
+var frases = ['Ola bom dia.',
+                'O ser humano tem 70 mil pensamentos por dia.',
+                    'Tartaruga come pombo.',
+                        'Djoga lança album sempre dia 13',
+                            'Ladrão roubou pra comprar cervejinha',
+                                'Seja selvagem e livre jovem!',
+                                    'Sucesso após ver o progresso']
