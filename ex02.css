@@ -119,6 +119,32 @@ main{
 
 }
 
+.area_luffy{
+
+    width: 900px;
+    height: 500px;
+
+    background-image: url('https://epipoca.com.br/wp-content/uploads/2022/07/elasticidade-gear-5-one-piece.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 1rem;
+    margin: 20px auto;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--transparent);
+
+
+}
+
+.luffy__colorido{
+
+    background-image: url("https://gamek.mediacdn.vn/133514250583805952/2022/4/5/ludf1-1649150558789632252947.jpg");
+
+}
+
 .upper{
 
     text-transform: uppercase;
