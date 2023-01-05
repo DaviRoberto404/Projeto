@@ -119,21 +119,6 @@ main{
 
 }
 
-
-#img--luffy{
-
-    display: block;
-    width: 70%;
-
-    margin: 20px auto;
-    padding: 10px;
-
-    border: 2px solid black;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px var(--transparent);
-
-}
-
 .upper{
 
     text-transform: uppercase;
