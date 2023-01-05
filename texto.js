@@ -31,5 +31,12 @@ $('#botao--lower').click(function (){
 
 })
 
+$('#botao--reset').click(() =>{
+
+    frase.text('Essa frase tem cinco palavras');
+
+
+})
+
 
 
